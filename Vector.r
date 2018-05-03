@@ -21,3 +21,11 @@ x[c(6,9)] <- NA
 x
 mean(x, na.rm = TRUE)
 mean(x)
+
+mean(x, ... =3, na.rm = TRUE )
+
+
+tst <- function(n, ...) ...elt(n)
+tst
+tst(1, pi=pi*0:1, 2:4)
+function()
