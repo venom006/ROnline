@@ -29,3 +29,14 @@ tst <- function(n, ...) ...elt(n)
 tst
 tst(1, pi=pi*0:1, 2:4)
 function()
+  
+x <- c(1:10)
+x
+y <- c(-4:5)
+y
+s <- c("a","b","c","d","e","f","g","h","i","j")
+s
+class(s)
+df <- data.frame(x,y,s,stringsAsFactors = FALSE)
+df
+class(df$s)
